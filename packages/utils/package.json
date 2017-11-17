@@ -1,0 +1,21 @@
+{
+  "name": "@ractivejs/utils",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/lib.umd.js",
+  "module": "dist/lib.es.js",
+  "devDependencies": {
+    "@ractivejs/core": "1.0.0",
+    "@ractivejs/utils-samples": "1.0.0",
+    "acorn": "^5.2.1",
+    "dedent": "^0.7.0",
+    "magic-string": "^0.22.4",
+    "serialize-javascript": "^1.4.0"
+  },
+  "scripts": {
+    "build": "rollup -c src/rollup.config.js",
+    "test": "rollup -c test/rollup.config.js && karma start"
+  }
+}
