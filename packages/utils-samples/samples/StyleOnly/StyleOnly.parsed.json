@@ -1,0 +1,15 @@
+{
+  "components": {},
+  "template": {
+    "code": "",
+    "map": ""
+  },
+  "style": {
+    "code": "\n  div {\n    color: red\n  }\n",
+    "map": ""
+  },
+  "script": {
+    "code": "",
+    "map": ""
+  }
+}

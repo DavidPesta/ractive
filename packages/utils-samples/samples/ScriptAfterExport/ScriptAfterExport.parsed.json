@@ -1,0 +1,15 @@
+{
+  "components": {},
+  "template": {
+    "code": "",
+    "map": ""
+  },
+  "style": {
+    "code": "",
+    "map": ""
+  },
+  "script": {
+    "code": "\n  export default {}\n  function foo(){ console.log('foo') }\n",
+    "map": ""
+  }
+}

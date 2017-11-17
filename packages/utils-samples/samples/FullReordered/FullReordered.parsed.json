@@ -1,0 +1,25 @@
+{
+  "components": {
+    "MyComponent": {
+      "module": "./path/to/MyComponent.ractive.html"
+    },
+    "MyOtherComponent": {
+      "module": "./path/to/MyOtherComponent.ractive.html"
+    },
+    "YetAnotherComponent": {
+      "module": "./path/to/YetAnotherComponent.ractive.html"
+    }
+  },
+  "template": {
+    "code": "\n  <div>{{ a + b }}</div>\n  <MyComponent>Hello, {{ message }}!</MyComponent>\n",
+    "map": ""
+  },
+  "style": {
+    "code": "\n  div {\n    color: red\n  }\n",
+    "map": ""
+  },
+  "script": {
+    "code": "\n  import $ from 'jquery'\n\n  export default {\n    data: { message: 'World' }\n  }\n",
+    "map": ""
+  }
+}

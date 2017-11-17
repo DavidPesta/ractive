@@ -1,0 +1,25 @@
+{
+  "components": {
+    "MyComponent": {
+      "module": "./path/to/MyComponent.ractive.html"
+    },
+    "MyOtherComponent": {
+      "module": "./path/to/MyOtherComponent.ractive.html"
+    },
+    "YetAnotherComponent": {
+      "module": "./path/to/YetAnotherComponent.ractive.html"
+    }
+  },
+  "template": {
+    "code": "",
+    "map": ""
+  },
+  "style": {
+    "code": "",
+    "map": ""
+  },
+  "script": {
+    "code": "",
+    "map": ""
+  }
+}

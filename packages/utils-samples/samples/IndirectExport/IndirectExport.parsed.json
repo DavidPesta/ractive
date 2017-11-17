@@ -1,0 +1,15 @@
+{
+  "components": {},
+  "template": {
+    "code": "",
+    "map": ""
+  },
+  "style": {
+    "code": "",
+    "map": ""
+  },
+  "script": {
+    "code": "\n  const component = {}\n  export default component\n",
+    "map": ""
+  }
+}

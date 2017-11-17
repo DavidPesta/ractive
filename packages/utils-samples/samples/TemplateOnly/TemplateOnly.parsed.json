@@ -1,0 +1,15 @@
+{
+  "components": {},
+  "template": {
+    "code": "\n  <div>{{ a + b }}</div>\n  <MyComponent>Hello, {{ message }}!</MyComponent>\n",
+    "map": ""
+  },
+  "style": {
+    "code": "",
+    "map": ""
+  },
+  "script": {
+    "code": "",
+    "map": ""
+  }
+}

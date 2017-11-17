@@ -1,0 +1,15 @@
+{
+  "components": {},
+  "template": {
+    "code": "\n  <h1>Hello, World!</h1>\n",
+    "map": ""
+  },
+  "style": {
+    "code": "",
+    "map": ""
+  },
+  "script": {
+    "code": "",
+    "map": ""
+  }
+}

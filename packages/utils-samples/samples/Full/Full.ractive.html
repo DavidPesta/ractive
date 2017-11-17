@@ -1,0 +1,22 @@
+<link rel="ractive" name="MyComponent" href="./path/to/MyComponent.ractive.html">
+<link rel="ractive" name="MyOtherComponent" href="./path/to/MyOtherComponent.ractive.html">
+<link rel="ractive" name="YetAnotherComponent" href="./path/to/YetAnotherComponent.ractive.html">
+
+<template>
+  <div>{{ a + b }}</div>
+  <MyComponent>Hello, {{ message }}!</MyComponent>
+</template>
+
+<style>
+  div {
+    color: red
+  }
+</style>
+
+<script>
+  import $ from 'jquery'
+
+  export default {
+    data: { message: 'World' }
+  }
+</script>
